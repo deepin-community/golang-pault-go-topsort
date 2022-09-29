@@ -1,0 +1,38 @@
+golang-pault-go-topsort (0.0~git20160529.f98d2ad-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream snapshot 0.0~git20160529.f98d2ad.
+  * Update Standards-Version to 4.2.1. (change Priority to optional)
+  * Update debhelper and compat to 11.
+  * Replace golang-go with golang-any, drop golang-go in -dev Depends.
+  * Update team mail address to team+pkg-go@tracker.debian.org.
+  * Add debian/watch file.
+
+ -- Shengjing Zhu <zhsj@debian.org>  Sat, 15 Sep 2018 02:47:19 +0800
+
+golang-pault-go-topsort (0.0~git20150602.0.a54e6e0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Set Testsuite: autopkgtest-pkg-go.
+
+ -- Alexandre Viau <aviau@debian.org>  Wed, 18 Apr 2018 01:55:20 -0400
+
+golang-pault-go-topsort (0.0~git20150602.0.a54e6e0-2) unstable; urgency=medium
+
+  [ Paul Tagliamonte ]
+  * Team upload.
+  * Switch to use dh-golang >= 0.10, to use the XS-Go-Import-Path control
+    header, rather than the debian/rules export.
+  * Remove Built-Using from arch:all -dev package
+
+  [ Alexandre Viau ]
+  * Point Vcs-* urls to salsa.debian.org.
+  * Fix insecure-copyright-format-uri.
+
+ -- Alexandre Viau <aviau@debian.org>  Wed, 18 Apr 2018 01:53:44 -0400
+
+golang-pault-go-topsort (0.0~git20150602.0.a54e6e0-1) unstable; urgency=medium
+
+  * Initial release
+
+ -- Paul Tagliamonte <paultag@debian.org>  Sun, 26 Jul 2015 15:30:19 -0400
